@@ -4,9 +4,9 @@ const ses = new AWS.SES({ region: 'us-east-1' });
 
 async function sendMail(event, context) {
   const params = {
-    Source: 'Gustavo.Peixoto.deAzevedo@gmail.com',
+    Source: 'Gustavo.Peixoto.de.Azevedo@gmail.com',
     Destination: {
-      ToAddresses: ['Gustavo.Peixoto.deAzevedo@gmail.com'],
+      ToAddresses: ['Gustavo.Peixoto.de.Azevedo@gmail.com'],
     },
     Message: {
       Body: {
