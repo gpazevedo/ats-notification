@@ -14,6 +14,8 @@ Each message should obey to this:
 }
 ```
 
+It outputs MailQueueArn and MailQueueUrl so that other services can use it.
+
 ### Develop
 
 Install
